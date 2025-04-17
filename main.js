@@ -98,4 +98,23 @@ function jogar() {
       }
     }
   }
+
+  document.querySelectorAll('.btnList').forEach(item => {
+    item.addEventListener('click', function () {
+      const navBar = document.querySelector('.navbar');
+  
+      if (navBar) {
+        if (navBar.style.height && navBar.style.height !== '0px') {
+          navBar.style.height = '0px';
+          item.style.width = '30%';
+        } else {
+          navBar.style.height = navBar.scrollHeight + 'px';
+          item.style.width = '100%';
+        }
+      }
+    });
+  });
+  
+  
+  
   
