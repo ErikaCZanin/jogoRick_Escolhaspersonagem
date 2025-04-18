@@ -1,167 +1,218 @@
 /* Global Styles */
 body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: white;
-    position: relative;
-  }
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+  position: relative;
+}
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container with the background image */
+.container {
+  background: url('./imgFundo.jpg') no-repeat center center/cover;
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-  /* Logo Styles */
-  .logo {
-    position: absolute;
-    bottom: 80px;
-    right: 80px;
-    max-width: 150px;
-    width: auto;
-  }
-  
-  /* Container with the background image */
-  .container {
-    background: url('./imgFundo.jpg') no-repeat center center/cover;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Content div for text and button */
-  .content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px 40px;
-    border-radius: 8px;
-    margin-right: 880px;
-  }
-  
-  .content h2 {
-    margin-bottom: 20px;
-  }
-  
-  /* Button Styles */
-  button {
-    background-color: #CE122A;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 18px;
-    border-radius: 8px;
-  }
-  
-  button:hover {
-    background-color: #1ABC9C;
-  }
-  
-  h4 {
-    margin: 0px;
-  }
-  
-  input {
-    margin-top: 4px;
-    border-radius: 8px;
-    padding: 4px 4px;
-  }
-  
-  /* Footer Styles */
-  footer {
-    text-align: center;
-    padding: 10px;
-  }
-  
-  select {
-    border-radius: 8px;
-    padding: 8px 4px;
-  }
-  
+}
+
+/* Content div for text and button */
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin-right: 880px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  background-color: #CE122A;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 18px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #1ABC9C;
+}
+
+h4 {
+  margin: 0px;
+}
+
+input {
+  margin-top: 4px;
+  border-radius: 8px;
+  padding: 4px 4px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+select {
+  border-radius: 8px;
+  padding: 8px 4px;
+}
 
 
-  header {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    background-color: #191919;
-    height: 0;
-  }
 
-  .nav button {
-    width: 30%;
-    height: 40px;
-    cursor: pointer;
-  }
+header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #191919;
+  height: 0;
+}
 
-  .navbar {
-    height: 0;
-    overflow: hidden;
-    transition: height 0.4s ease;
-    background-color: black;
-    padding-bottom: 0;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
-    flex-direction: column;
-    width: 100%;
-    display: flex; /* mantém a estrutura */
-  }
-  
+.nav button {
+  width: 30%;
+  height: 40px;
+  cursor: pointer;
+}
 
-  .btnList {
-    transition: all 0.4s ease;
-  }
+.navbar {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.4s ease;
+  background-color: black;
+  padding-bottom: 0;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  flex-direction: column;
+  width: 100%;
+  display: flex; /* mantém a estrutura */
+}
 
-  .navbar h1 {
-    margin: 0;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 4px;
-    margin-top: 20px;
-  }
 
-  li, a {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-  }
+.btnList {
+  transition: all 0.4s ease;
+}
 
-  .navbar ul {
-    display: flex;
-    gap: 8px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    margin-top: 14px;
-  }
+.navbar h1 {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 4px;
+  margin-top: 20px;
+}
 
-  .nav {
-    margin-right: 38px;
-    position: absolute;
-    top: 2px;
-    width: 250px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    flex-direction: column;
-  }
+li, a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
 
-  .nav-item {
-    display: flex;
-    height: 40PX;
-    width: 110PX;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.4s ease;
-  }
+.navbar ul {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-top: 14px;
+}
 
-  .nav-item:hover {
-        display: flex;
-        background-color: #CE122A;
-        width: 110PX;
-        border-radius: 8px;
-  }
-   
+.nav {
+  margin-right: 38px;
+  position: absolute;
+  top: 2px;
+  width: 250px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav-item {
+  display: flex;
+  height: 40PX;
+  width: 110PX;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.nav-item:hover {
+      display: flex;
+      background-color: #CE122A;
+      width: 110PX;
+      border-radius: 8px;
+}
+ 
+
+@media (max-width:370px) {
+
+.content{
+  margin:0;
+  padding: 14px;
+  background-color: rgba(0, 0, 0, 0.716);
+}
+
+section {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
+}
+
+.btnList {
+  margin: 0;
+}
+
+.logo {
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 80px;
+}
+
+select {
+  margin-bottom: 16px;
+}
+
+.navbar {
+  width: 60%;
+}
+
+.container {
+  background-position: -570px center;
+}
+
+}
