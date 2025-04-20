@@ -17,7 +17,12 @@ Projeto desenvolvido durante a **Imersão Dev** da Alura em abril de 2025. O obj
 - 🛠️ **Praticar lógica condicional** (if/else) em JavaScript, processando dados de formulários.  
 - 🎮 **Criar um jogo interativo** baseado em escolhas e condições.  
 - 🤝 **Engajar com a comunidade** e trocar experiências.  
-- ✨ **Aprimorar habilidades** e aprofundar conhecimentos em linguagens de programação.  
+- ✨ **Aprimorar habilidades** e aprofundar conhecimentos em linguagens de programação.
+
+### 📝 Descrição do Jogo:  
+- 🌱 **Jogabilidade** simples, baseada em prompt para interação.  
+- 🧠 **Lógica** implementada com **if/else** em JavaScript para determinar o vencedor entre o jogador e o computador.  
+- 🚀 **Temática** inspirada no episódio "Pessoa Noturna" de *Rick and Morty*. Escolha um número de 1 a 3, e o computador sorteará o vilão com quem você irá batalhar. 
 
 ### 💫 Deploy  
 O projeto está disponível online! Confira no link abaixo:  
