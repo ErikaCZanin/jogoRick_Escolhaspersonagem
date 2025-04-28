@@ -14,8 +14,8 @@ body {
 
 .logo {
   position: absolute;
-  top: 80px;
-  right: 80px;
+  top: 40px;
+  left: 50px;
   max-width: 150px;
   width: auto;
 }
@@ -208,9 +208,10 @@ a {
   }
 
   .logo {
-    left: 15%;
+    top: 40px !important;
+    left: 50% !important;
     transform: translateX(-50%);
-    top: 40px;
+    max-width: 210px !important;
   }
 
   select {
