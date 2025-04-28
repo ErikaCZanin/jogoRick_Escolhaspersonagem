@@ -223,11 +223,9 @@ a {
   }
 
   .container {
-    margin-top: 50%;
+    margin-top: 30%;
     height: auto !important;
     justify-content: center;
     margin-left: 0 !important;
   }
-
-
 }
