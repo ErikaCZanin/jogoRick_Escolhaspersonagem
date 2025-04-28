@@ -131,8 +131,8 @@ document.querySelectorAll('.btnList').forEach(item => {
         if (isSmallScreen) {
           item.style.width = '60%';
           content.style.marginTop = navBar.scrollHeight + 'px';
-          body.style.height = '104%';
-          html.style.height = '104%';
+          body.style.height = '110%';
+          html.style.height = '110%';
         } else {
           item.style.width = '100%';
         }

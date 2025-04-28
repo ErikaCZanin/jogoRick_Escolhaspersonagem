@@ -8,7 +8,7 @@ body {
   font-family: "Oranienbaum", Arial, sans-serif;
   color: white;
   position: relative;
-  background: url('./imgFundo.jpg') no-repeat center center/cover;
+  background: url('./imgFundo.jpg') center center/cover;
 }
 
 
