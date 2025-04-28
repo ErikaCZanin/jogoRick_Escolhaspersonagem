@@ -14,7 +14,7 @@ body {
 
 .logo {
   position: absolute;
-  bottom: 80px;
+  top: 80px;
   right: 80px;
   max-width: 150px;
   width: auto;
@@ -197,7 +197,7 @@ a {
   .nav {
     display: flex;
     width: 100%;
-    margin: 0;
+    margin: 58px 0;
     justify-content: center;
     align-items: center;
     padding: 14px 0;
@@ -208,10 +208,9 @@ a {
   }
 
   .logo {
-    right: auto;
-    left: 50%;
+    left: 15%;
     transform: translateX(-50%);
-    bottom: 80px;
+    top: 40px;
   }
 
   select {
