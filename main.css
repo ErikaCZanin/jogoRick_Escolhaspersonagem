@@ -1,4 +1,7 @@
-/* Global Styles */
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,10 +9,9 @@ body {
   color: white;
   position: relative;
   background: url('./imgFundo.jpg') no-repeat center center/cover;
-  height: 100vh;
 }
 
-/* Logo Styles */
+
 .logo {
   position: absolute;
   bottom: 80px;
@@ -18,13 +20,12 @@ body {
   width: auto;
 }
 
-/* Container with the background image */
+
 .container {
+  margin-left: 50px;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-
 }
 
 /* Content div for text and button */
@@ -35,7 +36,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px 40px;
   border-radius: 8px;
-  margin-right: 880px;
+  width: 30rem;
 }
 
 .content h2 {
@@ -182,6 +183,7 @@ a {
     margin: 0;
     padding: 14px;
     background-color: rgba(0, 0, 0, 0.716);
+    width: auto !important;
   }
 
   section {
@@ -221,7 +223,11 @@ a {
   }
 
   .container {
-    background-position: -570px center;
+    margin-top: 50%;
+    height: auto !important;
+    justify-content: center;
+    margin-left: 0 !important;
   }
+
 
 }

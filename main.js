@@ -127,7 +127,7 @@ function jogar() {
   
           // Adiciona a margem se for tela pequena
           if (isSmallScreen && content) {
-            content.style.marginTop = '160px';
+            content.style.marginTop = '100px';
             item.style.width = '60%';
           }
         }
