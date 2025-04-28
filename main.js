@@ -103,7 +103,7 @@ document.querySelectorAll('.btnList').forEach(item => {
   item.addEventListener('click', function () {
     const navBar = document.querySelector('.navbar');
     const content = document.querySelector('.content');
-    const isSmallScreen = window.matchMedia('(max-width: 910px)').matches;
+    const isSmallScreen = window.matchMedia('(max-width: 768px)').matches;
     const body = document.querySelector('body');
     const html = document.querySelector('html');
 

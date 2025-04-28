@@ -177,7 +177,7 @@ a {
 }
 
 
-@media (max-width:610px) {
+@media (max-width:768px) {
 
   .content {
     margin: 0;
