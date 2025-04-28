@@ -1,11 +1,12 @@
 /* Global Styles */
 body {
-  background-color: black;
   margin: 0;
   padding: 0;
   font-family: "Oranienbaum", Arial, sans-serif;
   color: white;
   position: relative;
+  background: url('./imgFundo.jpg') no-repeat center center/cover;
+  height: 100vh;
 }
 
 /* Logo Styles */
@@ -19,12 +20,11 @@ body {
 
 /* Container with the background image */
 .container {
-  background: url('./imgFundo.jpg') no-repeat center center/cover;
-  min-height: 95vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 /* Content div for text and button */
@@ -71,8 +71,15 @@ input {
 
 /* Footer Styles */
 footer {
+  display: flex;
   text-align: center;
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  position: absolute;
+  height: 2.5rem;
+  width: 100%;
+  bottom: 0
 }
 
 select {
@@ -106,7 +113,8 @@ header {
   border-bottom-right-radius: 18px;
   flex-direction: column;
   width: 100%;
-  display: flex; /* mantém a estrutura */
+  display: flex;
+  /* mantém a estrutura */
 }
 
 
@@ -122,7 +130,8 @@ header {
   margin-top: 20px;
 }
 
-li, a {
+li,
+a {
   list-style: none;
   text-decoration: none;
   color: white;
@@ -141,7 +150,7 @@ li, a {
 .nav {
   margin-right: 38px;
   position: absolute;
-  top: 2px;
+  top: 18px;
   width: 250px;
   display: flex;
   justify-content: end;
@@ -160,59 +169,59 @@ li, a {
 }
 
 .nav-item:hover {
-      display: flex;
-      background-color: #CE122A;
-      width: 110PX;
-      border-radius: 8px;
-}
- 
-
-@media (max-width:390px) {
-
-.content{
-  margin:0;
-  padding: 14px;
-  background-color: rgba(0, 0, 0, 0.716);
-}
-
-section {
-  padding: 18px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #CE122A;
+  width: 110PX;
+  border-radius: 8px;
 }
 
-.nav {
-  display: flex;
-  width: 100%;
-  margin: 0;
-  justify-content: center;
-  align-items: center;
-  padding: 14px 0;
-}
 
-.btnList {
-  margin: 0;
-}
+@media (max-width:610px) {
 
-.logo {
-  right: auto;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 80px;
-}
+  .content {
+    margin: 0;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.716);
+  }
 
-select {
-  margin-bottom: 16px;
-}
+  section {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.navbar {
-  width: 60%;
-}
+  .nav {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
+  }
 
-.container {
-  background-position: -570px center;
-}
+  .btnList {
+    margin: 0;
+  }
+
+  .logo {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 80px;
+  }
+
+  select {
+    margin-bottom: 16px;
+  }
+
+  .navbar {
+    width: 60%;
+  }
+
+  .container {
+    background-position: -570px center;
+  }
 
 }

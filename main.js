@@ -106,6 +106,13 @@ function jogar() {
       const isSmallScreen = window.matchMedia('(max-width: 370px)').matches;
   
       if (navBar) {
+        // Aplica a transição no JavaScript
+        if (content) {
+         content.style.transition = 'margin-top 0.5s ease';
+       }
+       if (item) {
+         item.style.transition = 'width 0.5s ease';
+       }
         if (navBar.style.height && navBar.style.height !== '0px') {
           navBar.style.height = '0px';
           item.style.width = '30%';
@@ -120,7 +127,7 @@ function jogar() {
   
           // Adiciona a margem se for tela pequena
           if (isSmallScreen && content) {
-            content.style.marginTop = '180px';
+            content.style.marginTop = '160px';
             item.style.width = '60%';
           }
         }
