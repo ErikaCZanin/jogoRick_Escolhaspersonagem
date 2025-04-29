@@ -183,7 +183,7 @@ a {
     margin: 0;
     padding: 14px;
     background-color: rgba(0, 0, 0, 0.716);
-    width: auto !important;
+    width: auto;
   }
 
   section {
@@ -197,7 +197,7 @@ a {
   .nav {
     display: flex;
     width: 100%;
-    margin: 58px 0;
+    margin: 78px 0;
     justify-content: center;
     align-items: center;
     padding: 14px 0;
@@ -223,8 +223,6 @@ a {
   }
 
   .container {
-    margin-top: 30%;
-    height: auto !important;
     justify-content: center;
     margin-left: 0 !important;
   }
